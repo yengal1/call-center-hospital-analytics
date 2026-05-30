@@ -22,8 +22,10 @@ La base del proyecto se estructuró parametrizando el asistente de transferencia
 
 ## 📈 Dashboard Gerencial e Insights de Operación
 
-El lienzo final del tablero fue maquetado bajo una distribución ejecutiva limpia y funcional, permitiendo que todos los elementos visuales se recalculen automáticamente mediante el uso de un segmentador por Estado federado (`State`).
+Configuracion 
+![Configuracion de Dashboard de Operaciones Hospitalarias Urgencias](Powebi.png)
 
+El lienzo final del tablero fue maquetado bajo una distribución ejecutiva limpia y funcional, permitiendo que todos los elementos visuales se recalculen automáticamente mediante el uso de un segmentador por Estado federado (`State`).
 ![Dashboard de Operaciones Hospitalarias Urgencias](Reporte_powerbi.png)
 
 ### 💡 Hallazgos Críticos de Negocio (Insights):
