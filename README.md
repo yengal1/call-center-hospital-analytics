@@ -29,4 +29,11 @@ El lienzo final del tablero fue maquetado bajo una distribución ejecutiva limpi
 ![Dashboard de Operaciones Hospitalarias Urgencias](Reporte_powerbi.png)
 
 ### 💡 Hallazgos Críticos de Negocio (Insights):
-* **Canales Críticos:** El canal de contacto telefónico directo (`Phone`) representa el núcleo de la demanda...
+* **Canales Críticos:** El canal de contacto telefónico directo (`Phone`) representa el núcleo de la demanda.
+  
+## 🕒 2. Patrones Cíclicos de Horas Pico (Saturación)
+El análisis del volumen temporal basado en la columna calculada `Hora_Dia` demostró que la demanda del centro de salud no es lineal ni constante a lo largo de la jornada, revelando picos y valles operativos críticos para la planeación del personal:
+
+* **Pico Crítico Principal (Madrugada):** Se sitúa de forma contraintuitiva en las primeras horas de la noche y madrugada (específicamente entre las **0:00 y las 3:00 am**), registrando volúmenes que superan las 440 llamadas por hora.
+* **Pico Secundario (Tarde):** Se presenta a mitad de la tarde, concretamente entre las **3:00 pm y 4:00 pm (horas 15 y 16)**.
+* **Valle de Demanda:** El punto con menor actividad y saturación en las líneas telefónicas se registra sobre las **6:00 am**.
