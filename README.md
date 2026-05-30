@@ -19,7 +19,11 @@ El desarrollo del proyecto se ejecutó siguiendo las fases del ciclo de vida tra
 ### 1. Conexión y Migración (DBeaver)
 La base del proyecto se estructuró parametrizando el asistente de transferencia de datos en **DBeaver**. Se configuró rigurosamente el formato de codificación en **`UTF-8`**, se definió la posición de las cabeceras de las columnas y el delimitador de campos para asegurar una ingesta sin pérdida de caracteres especiales.
 
-```text
-📸 [Imagen del Proceso: Configuración del entorno e importación de tablas en DBeaver]
-(/Reporte_powerbi.png)
+## 📈 Dashboard Gerencial e Insights de Operación
 
+El lienzo final del tablero fue maquetado bajo una distribución ejecutiva limpia y funcional, permitiendo que todos los elementos visuales se recalculen automáticamente mediante el uso de un segmentador por Estado federado (`State`).
+
+![Dashboard de Operaciones Hospitalarias Urgencias](Reporte_powerbi.png)
+
+### 💡 Hallazgos Críticos de Negocio (Insights):
+* **Canales Críticos:** El canal de contacto telefónico directo (`Phone`) representa el núcleo de la demanda...
