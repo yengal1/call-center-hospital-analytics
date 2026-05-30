@@ -21,5 +21,5 @@ La base del proyecto se estructuró parametrizando el asistente de transferencia
 
 ```text
 📸 [Imagen del Proceso: Configuración del entorno e importación de tablas en DBeaver]
-([Referencia: <img width="1285" height="753" alt="image" src="https://github.com/user-attachments/assets/d1eccd4b-1e3f-472e-b548-428bf3ac5347" />](https://github.com/yengal1/call-center-hospital-analytics/blob/main/Reporte_powerbi.png)
-)
+(/Reporte_powerbi.png)
+
