@@ -18,6 +18,7 @@ El desarrollo del proyecto se ejecutó siguiendo las fases del ciclo de vida tra
 
 ### 1. Conexión y Migración (DBeaver)
 La base del proyecto se estructuró parametrizando el asistente de transferencia de datos en **DBeaver**. Se configuró rigurosamente el formato de codificación en **`UTF-8`**, se definió la posición de las cabeceras de las columnas y el delimitador de campos para asegurar una ingesta sin pérdida de caracteres especiales.
+![Datos_limpios_de Operaciones Hospitalarias Urgencias](Dbeaver_datos_limpios.png)
 
 ## 📈 Dashboard Gerencial e Insights de Operación
 
