@@ -1,6 +1,3 @@
-# Vamos a crear el archivo README.md completo usando código Python para que quede grabado en el sistema
-# y se incluyan de forma exacta las referencias de las herramientas (DBeaver, SQL, Power BI) y las imágenes correspondientes.
-
 readme_code_content = """# 📊 Dashboard de Operaciones - Call Center Hospitalario de Urgencias
 
 Este repositorio contiene un proyecto completo de **Analítica e Ingeniería de Datos (End-to-End)** enfocado en la optimización operativa de un servicio de atención telefónica hospitalaria de urgencias. El ciclo de vida abarca desde la conexión al motor de base de datos y la limpieza de datos por medio de SQL, hasta el modelado analítico mediante expresiones DAX y la maquetación de un cuadro de mando ejecutivo interactivo.
