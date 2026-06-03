@@ -1,15 +1,22 @@
-# 📊 Análisis de Operaciones - Call Center Hospitalario de Urgencias
+# Call Center Hospital Analytics 📊
 
-Este repositorio expone un proyecto completo de **Analítica e Ingeniería de Datos (End-to-End)** cuyo objetivo es auditar y optimizar el flujo operativo del servicio de atención telefónica de urgencias de un centro de salud, basándose en un histórico de **10,000 registros**. El pipeline abarca desde el aprovisionamiento en base de datos y limpieza con SQL, hasta el modelado analítico mediante expresiones DAX y el diseño de una interfaz ejecutiva interactiva en Power BI.
+## 📋 Descripción del Proyecto
+Este proyecto desarrolla un análisis integral de las operaciones del centro de contacto de una institución de salud. El objetivo principal es evaluar la eficiencia en el enrutamiento de llamadas, identificar cuellos de botella y proponer mejoras basadas en datos para la atención al usuario.
 
----
+## 🛠️ Tecnologías Utilizadas
+- **Python (Pandas & NumPy):** Utilizado para el proceso de extracción, limpieza, normalización y transformación del dataset sintético hospitalario (ETL).
+- **SQL:** Consultas de agregación y segmentación de datos para agrupar métricas por horas, tipos de llamadas y estados de resolución.
+- **Power BI:** Diseño e implementación de un dashboard interactivo enfocado en KPIs de gestión hospitalaria.
 
-## 🛠️ Arquitectura de Herramientas
+## 📈 Métricas y Hallazgos Analizados
+A través del desarrollo de scripts y visualizaciones, el proyecto se enfoca en resolver:
+- **Volumen de llamadas e identificación de Horas Pico:** Para optimizar la distribución del personal administrativo y médico en las franjas horarias críticas.
+- **Tiempos de Espera y Abandono:** Análisis de llamadas perdidas frente a la capacidad de respuesta operativa del centro médico.
+- **Eficiencia de Enrutamiento:** Evaluación de las derivaciones a diferentes áreas (citas, urgencias, información general) para agilizar el flujo de atención.
 
-* **DBeaver (Community Edition):** Administrador de bases de datos utilizado para la gestión de conexiones de datos, mapeo de estructuras (`Tables mapping`) e importación controlada de grandes volúmenes de información.
-* **SQL (Estructuración y Limpieza):** Implementación de reglas de negocio para la limpieza profunda, normalización de tipos de datos, corrección de inconsistencias e integridad en la tabla base `call_center_hospital_limpio`.
-* **Power BI Desktop:** Motor analítico encargado del modelado conceptual, desarrollo de cálculos métricos mediante **DAX (Data Analysis Expressions)** y diseño de la interfaz visual dinámica.
-
+## 🚀 Cómo Ver el Proyecto
+1. El procesamiento y limpieza de datos se encuentra documentado en los scripts de Python dentro del repositorio.
+2. Las conclusiones estratégicas están orientadas a optimizar la toma de decisiones en la gestión de recursos de salud.
 ---
 
 ## 🔄 El Proceso Técnico Paso a Paso (ETL)
